@@ -289,6 +289,7 @@ void loop() {
         is[0] = is[1] = is[2] = is[3] = 0;
         phase1ok = 0;
         numdisp();
+        currentjattempts = 0;
       }
       else {
         waitformiddle = 0;
